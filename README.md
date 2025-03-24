@@ -1,2 +1,2 @@
 # I3
-Implementation of the Coqui
+Implementation of Coqui
