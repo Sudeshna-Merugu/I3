@@ -1,5 +1,7 @@
 # Coqui
 
+This repository is to checkout how the Coqui TTS service can be run on local systems. 
+
 Create and activate a virtual environment
 ```bash
 python3 -m venv tts-venv
