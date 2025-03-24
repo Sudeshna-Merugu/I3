@@ -1,6 +1,6 @@
 # Coqui
 
-This repository is to checkout how the Coqui TTS service can be run on local systems. 
+This repository is to checkout how the Coqui TTS service can be run on local systems. Your output files will be created upon running the python scripts. 
 
 Please clone this repo
 ```bash
@@ -26,22 +26,22 @@ tts-server
 ```
 
 
-To do basic text-to-speech synthesis run
+To do basic text-to-speech synthesis run. NOTE: You can change the model being used to any of the models available. To get available models, enter the command: `tts --list_models`.
 ```bash
-python3 basic.py
+python3 basic.py # stored in `basic_tts.wav`
 ```
 
-To do multilingual text-to-speech synthesis run
+To do multilingual text-to-speech synthesis run. NOTE: You can change the language here as well, by going through the listed languages.
 ```bash
-python3 multilingual.py
+python3 multilingual.py # stored in `german_tts.wav`
 ```
 
-To voice clone run
+To voice clone run. NOTE: Source voice needed to run this (example, `voice1.wav`)
 ```bash
-python3 voice_clone.py
+python3 voice_clone.py # stored in `cloned_voice.wav`
 ```
 
-To do voice conversion run
+To do voice conversion run. NOTE: Source voice needed to run this (example, `voice1.wav`) as well as Target voice (example, `voice2.wav`).
 ```bash
-python3 voice_conversion.py
+python3 voice_conversion.py # stored in `converted_voice.wav`
 ```
